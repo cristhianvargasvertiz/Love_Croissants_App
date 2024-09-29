@@ -27,7 +27,7 @@ function ProductList(props) {
     }
     const plantsArray = [
         {
-            category: "Croissant",
+            category: "··· Croissants ···",
             plants: [
                 {
                     name: "Butter Croissant",
@@ -67,53 +67,53 @@ function ProductList(props) {
             ]
         },
         {
-            category: "Coffee",
+            category: "··· Coffee & Beverage ···",
             plants: [
                 
                 {
-                    name: "Butter Croissant",
-                    image: "/Love_Croissants_App/1.png",
-                    description: "Traditional LOVE croissant, prepared over 3 days. - Beurremont Beurre 82%, Normandy, France",
-                    cost: "$6"
+                    name: "Coffee",
+                    image: "/Love_Croissants_App/coffee.png",
+                    description: "Artisanal coffee brewed to perfection, complementing every bite of our fresh croissants",
+                    cost: "$3"
                 },
 
                 {
-                    name: "Butter Croissant",
-                    image: "/Love_Croissants_App/1.png",
-                    description: "Traditional LOVE croissant, prepared over 3 days. - Beurremont Beurre 82%, Normandy, France",
-                    cost: "$6"
+                    name: "Coffee",
+                    image: "/Love_Croissants_App/coffee.png",
+                    description: "Artisanal coffee brewed to perfection, complementing every bite of our fresh croissants",
+                    cost: "$3"
                 },
 
                 {
-                    name: "Butter Croissant",
-                    image: "/Love_Croissants_App/1.png",
-                    description: "Traditional LOVE croissant, prepared over 3 days. - Beurremont Beurre 82%, Normandy, France",
-                    cost: "$6"
+                    name: "Coffee",
+                    image: "/Love_Croissants_App/coffee.png",
+                    description: "Artisanal coffee brewed to perfection, complementing every bite of our fresh croissants",
+                    cost: "$3"
                 },
 
                 {
-                    name: "Butter Croissant",
-                    image: "/Love_Croissants_App/1.png",
-                    description: "Traditional LOVE croissant, prepared over 3 days. - Beurremont Beurre 82%, Normandy, France",
-                    cost: "$6"
+                    name: "Coffee",
+                    image: "/Love_Croissants_App/coffee.png",
+                    description: "Artisanal coffee brewed to perfection, complementing every bite of our fresh croissants",
+                    cost: "$3"
                 },
 
                 {
-                    name: "Butter Croissant",
-                    image: "/Love_Croissants_App/1.png",
-                    description: "Traditional LOVE croissant, prepared over 3 days. - Beurremont Beurre 82%, Normandy, France",
-                    cost: "$6"
+                    name: "Coffee",
+                    image: "/Love_Croissants_App/coffee.png",
+                    description: "Artisanal coffee brewed to perfection, complementing every bite of our fresh croissants",
+                    cost: "$3"
                 },
 
             ]
         },
         {
-            category: "Merch",
+            category: "··· Merch ···",
             plants: [
                 
                 {
-                    name: "Butter Croissant",
-                    image: "/Love_Croissants_App/1.png",
+                    name: "Merch",
+                    image: "/Love_Croissants_App/merch.png",
                     description: "Traditional LOVE croissant, prepared over 3 days. - Beurremont Beurre 82%, Normandy, France",
                     cost: "$6"
                 },
@@ -204,8 +204,8 @@ const handlePlantsClick = (e) => {
             </div>
             
             <div style={{...styleObjUl, position: 'relative'}}>  
-                
-                    <div style={{ ...styleA, display: 'flex', textAlign: 'center'}}> <a href="#" onClick={(e)=>handlePlantsClick(e)} style={{ ...styleA, position: 'absolute', left: '30%', transform: 'translateX(-50%)'}} ><i>Love is Care, Handcrafted Just for You ...</i></a></div>
+
+                    <div style={{ ...styleA, display: 'flex', textAlign: 'center'}}> <a href="#" onClick={(e)=>handlePlantsClick(e)} style={{ ...styleA, position: 'absolute', left: '32%', transform: 'translateX(-50%)'}} ><i>La Carte</i></a></div>
                 <div> 
                     <a href="#" onClick={(e) => handleCartClick(e)} style={{...styleA, justifyContent: "center", textAlign: 'center', margin: '0 auto', display: 'flex' }}>
                         

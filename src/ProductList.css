@@ -12,7 +12,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background-color: #4CAF50;
+    background-color: #7e2d40;
     color: #fff!important;
     padding: 15px;
     display: flex;
@@ -42,6 +42,7 @@ body {
 .mainCategoryDiv {
     
     text-align: center;
+    color: white;
 
 }
 
@@ -52,6 +53,8 @@ body {
     width: 100vw;
     align-items: center;
     justify-content: center;
+    background-color: #7e2d40;
+    font-family: sans-serif;
 }
 .product-list {
     display: flex;
@@ -154,7 +157,7 @@ body {
 
 .tag img {
     height: 70px;
-    width: 70px;
+    width: 50px;
     border-radius: 70%;
     
 }

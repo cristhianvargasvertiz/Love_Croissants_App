@@ -193,7 +193,8 @@ const handlePlantsClick = (e) => {
         <div>
              
              <div className="navbar" style={styleObj}>
-            <div className="tag">
+            
+            <div className="tag"> {/* imagen */}
                <div style={{cursor:"pointer"}} onClick={props.toLanding} className="luxury">
                <img src="/Love_Croissants_App/Logo3.png" alt="Logo3" />
                     <a style={{textDecoration:'none'}}>
@@ -201,10 +202,13 @@ const handlePlantsClick = (e) => {
                 </div>
               
             </div>
+            
             <div style={{...styleObjUl, position: 'relative'}}>  
-                    <div style={{ ...styleA, display: 'block', textAlign: 'center', margin: '0 auto'}}> <a href="#" onClick={(e)=>handlePlantsClick(e)} style={{ ...styleA, position: 'absolute', left: '30%', transform: 'translateX(-50%)'}} >Croissants Crafted with <i>Love</i></a></div>
+                
+                    <div style={{ ...styleA, display: 'flex', textAlign: 'center'}}> <a href="#" onClick={(e)=>handlePlantsClick(e)} style={{ ...styleA, position: 'absolute', left: '30%', transform: 'translateX(-50%)'}} ><i>Love is Care, Handcrafted Just for You ...</i></a></div>
                 <div> 
                     <a href="#" onClick={(e) => handleCartClick(e)} style={{...styleA, justifyContent: "center", textAlign: 'center', margin: '0 auto', display: 'flex' }}>
+                        
                         <h1 className='cart'>
                         <label style={{zIndex:1, color: "black", fontSize:"1.5rem",cursor:"pointer",display: 'flex', justifyContent: 'center', alignItems: 'center', position: 'relative'}}>{totalItems()}</label>
                             0
@@ -214,13 +218,14 @@ const handlePlantsClick = (e) => {
                     </a>
                 </div>
             </div>
+            
             </div>
 
 
         {!showCart? (
         <div className="product-grid">
             <br></br>
-            {plantsArray.map((item)=><div className='mainCategoryDiv'> <h1>{item.category}</h1> 
+            {plantsArray.map((item)=><div className='mainCategoryDiv'> <h1><i>{item.category}</i></h1> 
             <div className="product-list">
                 {item.plants.map((plant)=>
                     <div className='product-card'>
